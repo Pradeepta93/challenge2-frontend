@@ -26,4 +26,11 @@ services:
       DB_PASSWORD: password
       APP_DEBUG: 'true'
       APP_KEY: ibXjzma17W6BhqYjGcrtYjx4UT2pXTih
-    command: bash -c "sleep 30s && php artisan migrate --force && php artisan db:seed --force && php artisan serve --host=0.0.0.0 --port=8000"
+    command: bash -c "sleep 600s && php artisan migrate --force && php artisan db:seed --force && php artisan serve --host=0.0.0.0 --port=8000"
+  
+  frontend:
+    image: 9560908608/doceree_test_frontend:v1
+    ports:
+      - 3000:3000
+    depends_on:
+      - app
