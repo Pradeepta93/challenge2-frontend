@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 Make sure you have cloned , setup and ran  [https://github.com/Pradeepta93/challenge2-frontend.git](https://github.com/Pradeepta93/challenge2-frontend.git)
 
 ```
-git clone https://github.com/zurez/challenge2.git
+git clone https://github.com/Pradeepta93/challenge2-frontend.git
 ```
 
 ### Installing
