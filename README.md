@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Make sure you have cloned , setup and ran  [https://github.com/zurez/challenge2.git](https://github.com/zurez/challenge2.git)
+Make sure you have cloned , setup and ran  [https://github.com/Pradeepta93/challenge2-frontend.git](https://github.com/Pradeepta93/challenge2-frontend.git)
 
 ```
 git clone https://github.com/zurez/challenge2.git
